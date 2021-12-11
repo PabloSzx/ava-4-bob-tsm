@@ -1,9 +1,14 @@
 {
-	"dependencies": {
-		"@types/node": "^16.11.12",
-		"ava": "^4.0.0-rc.1",
-		"bob-tsm": "^0.3.6",
-		"esbuild": "^0.14.2",
-		"typescript": "^4.5.3"
-	}
+  "name": "ava-4-bob-tsm",
+  "private": true,
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.12",
+    "ava": "^4.0.0-rc.1",
+    "bob-tsm": "^0.3.6",
+    "esbuild": "^0.14.2",
+    "typescript": "^4.5.3"
+  }
 }
